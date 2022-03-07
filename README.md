@@ -1,7 +1,12 @@
 <h1 align="center"> Tweet-Academy</h1>
 
 <br>
-
+<ol>
+    <ul>Corentin Collery : Back-End</ul>
+    <ul>Corentin Pomme : Back-End</ul>
+    <ul>Geoffrey Hallier : Front-End</ul>
+    <ul>Corentin Hanscotte : Front-End</ul>
+</ol>
 
 ### Table of contents
 
