@@ -1,0 +1,88 @@
+/*Modal CSS*/
+.modal {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    z-index: 1;
+    background-color: black !important;
+    color: white;
+    border-radius: 15px;
+}
+
+.modal-header, .modal-footer {
+    border: none !important;
+    align-items: normal;
+}
+
+h5 {
+    display: grid;
+}
+
+.modal-body {
+    display: grid;
+    margin: 20px 20px;
+}
+
+.modal-body input {
+    font-size: 10pt;
+    background-color: black;
+    color: white;
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.modal-body input::placeholder {
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+    color: rgb(110, 118, 125);
+}
+
+.modal-body h2 {
+    margin-bottom: 30px;
+}
+
+button.btn {
+    width: 100%;
+    margin: 20px 20px;
+    border-radius: 20px;
+}
+
+.titleDate, .btn-light {
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+    font-weight: bold
+}
+
+.infoDate {
+    font-family: "TwitterChirp", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: rgb(110, 118, 125);
+    font-size: 8pt;
+}
+
+.margin-closebtn {
+    margin-right: auto;
+    margin-left: unset;
+}
+
+label > .form-floating {
+    color: var(--little-bird);
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    height: 60px !important;
+    color: white !important;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 120px !important;
+}
+
+option {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.modal-header-space {
+    justify-content: normal !important;
+    border-bottom: rgb(110, 118, 125) 1px solid !important;
+}

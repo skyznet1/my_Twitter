@@ -1,0 +1,44 @@
+.descriptionText {
+    color: var(--nav-profile-color);
+}
+
+
+.userSelection:hover {
+    background: var(--nav-profile-hover);
+}
+
+.messageBox {
+    background-color: var(--nav-profile-hover);
+    color: var(--text-white);
+    overflow: auto;
+    max-height: 95%;
+    height: 90vh;
+}
+
+.sendMSG {
+    color: var(--text-white);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.sendMSG:hover{
+    color: var(--little-bird);
+}
+
+.sender {
+    width: fit-content;
+    border-radius: 15px 15px 15px 0px;
+     background-color: var(--inout-search);
+    word-break: break-word;
+    max-width: 85%;
+    color: var(--text-white) !important;
+}
+
+.receiver{
+    width: fit-content;
+    border-radius: 15px 0px 0px 15px;
+    background-color: var(--little-bird);
+    color: var(--text-white);
+    word-break: break-word;
+    max-width: 85%;
+}

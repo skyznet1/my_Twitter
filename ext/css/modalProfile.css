@@ -1,0 +1,124 @@
+.modal-dialog {
+    width: 600px;
+    max-width: 600px;
+}
+
+.modal-header .btn-close {
+    padding: .5rem .5rem;
+    margin: unset !important;
+}
+
+.modal-content{
+    border-radius: 25px !important;
+}
+
+.modal-header {
+    justify-content: unset !important;
+}
+
+.modal-title {
+    color: var(--bg-dark);
+}
+
+.btn-save {
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    border-radius: 25px;
+    margin-left: auto;
+}
+
+.modal-header {
+    border-bottom: unset !important;
+}
+
+.modal-body {
+    padding: 5px !important;
+}
+
+.elemsInImg {
+    color: black;
+    font-size: 30px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    text-align: center;
+}
+
+.changeImg {
+    transition: 0.2s;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.changeImg:hover {
+    background-color: rgba(39, 44, 48, 0.75);
+    cursor: pointer;
+}
+
+.modalProfilePic {
+    border-radius: 50%;
+    width: 25%;
+    position: relative;
+    transform: translate(5%, -75%);
+    border: 4px solid var(--text-white);
+}
+
+.changeProflie {
+    position: relative;
+    transform: translate(-235%, -280%);
+    color: white;
+    transition: 0.2s;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.changeProflie:hover {
+    background-color: rgba(39, 44, 48, 0.75);
+    cursor: pointer;
+}
+
+.inputBlue {
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+}
+
+.inputBlue:focus,
+.inputBlue:active {
+    border: 1px solid var(--little-bird);
+}
+
+.form-floating {
+    margin-top: -12%;
+    color: var(--bg-dark);
+}
+
+.form-control{
+    width: 95% !important;
+    margin: 0 auto !important;
+}
+
+.form-control:active,
+.form-control:focus {
+    box-shadow: none;
+    outline: 0;
+    border: 2px solid var(--little-bird);
+}
+
+.form-floating > label {
+    margin-left: 10px;
+}
+
+textarea {
+    resize: none !important;
+    background: var(--text-white);
+    border: 1px solid #ced4da !important;
+    color: var(--bg-dark) !important;
+    width: 95%;
+    margin: 0 auto !important;
+}
+
+textarea:active,
+textarea:focus {
+    border: 1px solid var(--little-bird) !important;
+
+}

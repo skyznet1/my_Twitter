@@ -1,0 +1,149 @@
+ul > li {
+    color: var(--text-white);
+    list-style-type: none !important;
+    transition: 0.2s ease-in-out;
+}
+
+li > a {
+    color: var(--text-white);
+    text-decoration: none !important;
+}
+
+li > a:hover {
+    color: var(--text-white);
+}
+
+ul > li:hover {
+    background: var(--nav-profile-hover);
+}
+
+.active {
+    border-right: 2px solid var(--little-bird);
+}
+
+.pageDescription {
+    overflow-wrap: break-word;
+    font-size: 13px;
+    color: var(--text-white);
+    line-height: 16px;
+}
+
+.descriptionText {
+    font-size: 10px;
+    color: var(--nav-profile-color);
+}
+
+div > a {
+    color: var(--text-white);
+    text-decoration: none !important;
+}
+
+div > a:hover {
+    color: var(--text-white);
+}
+
+.btn:hover {
+    color: var(--text-white) !important;
+}
+
+.settingCompteDesc {
+    font-size: 14px !important;
+}
+
+
+.idPpl {
+    color: var(--little-bird) !important;
+}
+
+.idPpl:hover{
+    text-decoration-color: var(--little-bird) !important;
+    color: var(--little-bird) !important;
+}
+
+.btn-blue {
+    background-color: var(--little-bird);
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.btn-yellow {
+    background-color: yellow !important;
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.btn-homo {
+    background-color: rgb(249, 24, 128);
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.btn-mauve {
+    background-color: rgb(120, 86, 255);
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.btn-orange {
+    background-color: rgb(255, 122, 0);
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.btn-green {
+    background-color: rgb(0, 186, 124);
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.btnBlack {
+    background-color: black;
+    color: white !important;
+    border-color: rgb(47, 51, 54);
+    width: 150px;
+    height: 50px;
+}
+
+.btnBlack:hover {
+    color: white !important;
+}
+
+.btnDefaut {
+    background-color: white;
+    color: black;
+    border-color: rgb(47, 51, 54);
+    width: 150px;
+    height: 50px;
+}
+
+.btnDefaut:hover{
+    color: black !important;
+}
+
+.btnBlue {
+    background-color: rgb(21, 32, 43);
+    color: white;
+    border-color: rgb(47, 51, 54);
+    width: 150px;
+    height: 50px;
+}
+
+.btnBlue:hover {
+    color: white !important;
+}
+
+.btnDefaut:focus,
+.btnBlack:focus,
+.btnBlue:focus {
+    border: 1px solid var(--little-bird);
+}
+
+.activeBG {
+    color: var(--text-white);
+    border-radius: 50%;
+    background-color: var(--little-bird);
+}
+
+.selectedColor {
+    color: var(--text-white);
+}

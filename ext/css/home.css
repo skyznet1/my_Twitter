@@ -1,0 +1,489 @@
+body {
+    background-color: var(--bg-dark);
+    height: 100vh !important;
+    color: var(--text-white);
+    margin: unset !important;
+}
+
+#loader {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.row {
+    margin: unset !important;
+    height: 100vh !important;
+}
+
+img {
+    cursor: pointer;
+}
+
+.tweeter-btn {
+    font-size: 15px;
+    max-width: 175px;
+    border-radius: 25px;
+    background-color: var(--little-bird);
+    color: white;
+    font-weight: 700;
+    line-height: 20px;
+    border-color: rgba(0, 0, 0, 0);
+    min-height: 52px;
+    min-width: 52px;
+    box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.tweeter-btn:hover {
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 152, 255, 1) !important;
+}
+
+.line-between-name {
+    line-height: 16px;
+}
+
+.logo-Twiter {
+    color: var(--logo-twitter);
+}
+
+.name {
+    color: rgb(110, 118, 125);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+main {
+    border-right-width: 1px;
+    border-color: var(--border-main);
+    border-left-width: 1px;
+    border-style: solid;
+    border-bottom: none;
+    border-top: none;
+}
+
+.nav-elems {
+    border-radius: 25px
+}
+
+
+.nav-icons-color {
+    color: var(--text-white);
+}
+
+.nav-elems:hover {
+    background-color: var(--nav-items-hover);
+    transition: 250ms all;
+    cursor: pointer;
+}
+
+.nav-a {
+    color: var(--text-white);
+    text-decoration: none;
+}
+
+.nav-a:hover {
+    color: var(--text-white);
+}
+
+.accueil {
+    line-height: 24px;
+    font-size: 20px;
+    color: var(--accueil-color);
+}
+
+textarea {
+    resize: none !important;
+    background-color: var(--bg-dark);
+    color: var(--text-area-color);
+    border: none !important;
+    max-height: 720px;
+    min-height: 24px;
+}
+
+textarea:focus-visible {
+    border: none !important;
+    outline: none;
+}
+
+.textAreaSubBTN {
+    margin-left: 10%;
+    padding-left: 2%;
+}
+
+.btn-text-area {
+    padding-left: 1%;
+    padding-right: 2%;
+    color: var(--little-bird);
+    cursor: pointer;
+}
+
+.tweeter-btn-alt {
+    width: auto !important;
+    min-height: auto !important;
+}
+
+.tweeter-btn-alt:hover {
+    color: var(--text-white);
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 152, 255, 1) !important;
+}
+
+.deletePadingForRow {
+    padding: unset !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--border-main) !important;
+}
+
+.liked {
+    color: rgb(249, 24, 128);
+}
+
+.cardTweet {
+    border-bottom-width: 1px;
+    border-top: none;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom-style: solid;
+    border-color: var(--border-main);
+}
+
+.cardTweet:hover {
+    background-color: var(--tendancex-content-hover);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.text-align-unset {
+    text-align: unset !important;
+}
+
+.tweetUser {
+    color: var(--text-white);
+    text-decoration: unset !important;
+}
+
+.tweetUser:hover {
+    text-decoration-color: var(--text-white);
+    text-decoration: underline !important;
+}
+
+.tweetUsernameId {
+    color: rgb(110, 118, 125);
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: unset !important;
+}
+
+.tweetDot {
+    vertical-align: text-bottom !important;
+    color: rgb(110, 118, 125);
+
+}
+
+.tweetTime {
+    color: rgb(110, 118, 125);
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none !important;
+}
+
+.tweetTime {
+    text-decoration: underline;
+    text-decoration-color: rgb(110, 118, 125) !important;
+}
+
+.tweetContent {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    /*
+    color: rgb(217, 217, 217);
+    */
+    color: var(--text-white);
+}
+
+.imgInTweet {
+    border: 1px solid rgb(47, 51, 54);
+    border-radius: 25px;
+}
+
+.footerTweet {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 18px;
+    color: rgb(110, 118, 125);
+}
+
+.footerLogo {
+    padding: 1%;
+    border-radius: 50%;
+}
+
+.footerMsg:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgb(29, 155, 240);
+}
+
+.footerLike:hover {
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgb(249, 24, 128);
+}
+
+.footerRT:hover {
+    background-color: rgba(0, 186, 124, 0.1);
+    color: rgb(0, 186, 124);
+}
+
+.footerCount {
+    font-size: 13px;
+}
+
+.inputSearch {
+    border-radius: 25px;
+    border: var(--input-border);
+    background-color: var(--input-search-inside);
+    padding: 12px;
+    color: rgb(110, 118, 125) !important;
+}
+
+.fix-mac {
+    display: -webkit-inline-flex;
+}
+
+.inputSearchBorder {
+    border: none;
+    background-color: var(--input-search-inside);
+    color: rgb(110, 118, 125) !important;
+    width: 90%;
+}
+
+.inputSearchBorder:visited,
+.inputSearchBorder:focus {
+    outline: 0;
+}
+
+.inputSearchBorder:visited + .inputSearch {
+    background-color: rgba(0, 0, 0, 0);
+    outline: 0;
+    border: 1px solid rgb(29, 155, 240);
+}
+
+.inputSearchBorder:focus + .inputSearch {
+    background-color: rgba(0, 0, 0, 0);
+    outline: 0;
+    border: 1px solid rgb(29, 155, 240);
+}
+
+.inputSearch:focus-visible {
+    outline: 0;
+}
+
+.tendancesBox {
+    border-radius: 16px;
+    background-color: var(--tendances-box);
+}
+
+
+.settingsBtn {
+    margin-left: auto;
+}
+
+.tendancesHead {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.tendancesContent:hover {
+    background-color: var(--tendancex-content-hover);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+.tendancesText {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.tendancesReasons {
+    color: var(--tendances-reason);
+    font-weight: 700;
+}
+
+.seeMore {
+    color: var(--little-bird) !important;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.editTendances {
+    margin-left: auto;
+    font-size: 12px !important;
+    cursor: pointer;
+    color: rgb(110, 118, 125) !important;
+    padding: 5px;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+}
+
+.editTendances:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgb(29, 155, 240);
+}
+
+.followSugest {
+    background-color: var(--text-white);
+    color: var(--bg-dark) !important;
+    border-radius: 25px;
+}
+
+.btn-no-style {
+
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
+
+.btn-no-style :hover {
+    border: none;
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgb(249, 24, 128);
+
+}
+
+.btn-no-style {
+
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
+
+.btn-no-style :hover {
+    border: none;
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgb(249, 24, 128);
+
+}
+
+.btn-no-style-msg {
+
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
+
+.btn-no-style-msg :hover {
+    border: none;
+    background-color: rgba(29, 155, 240, 0.1);
+    color: rgb(29, 155, 240);
+
+}
+
+.btn-no-style-rt {
+
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
+
+.btn-no-style-rt :hover {
+    border: none;
+    background-color: rgba(0, 186, 124, 0.1);
+    color: rgb(0, 186, 124);
+
+}
+
+.btn-no-style-up {
+
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
+
+.btn-no-style-up :hover {
+    border: none;
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgb(249, 24, 128);
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .left-nav i.fa-twitter {
+        display: none;
+    }
+
+    .nav-elems .rounded-circle {
+        display: none;
+    }
+
+    .nav-elems .name {
+        display: none;
+    }
+
+    .align-text-super {
+        display: none;
+    }
+
+    .flex-column {
+        flex-direction: row !important;
+    }
+
+    #tweeter-btn {
+        display: none;
+    }
+
+    #signets {
+        display: none !important;
+    }
+
+    #listes {
+        display: none !important;
+    }
+
+    #profil {
+        display: none !important;
+    }
+
+    #plus {
+        display: none !important;
+    }
+
+    #tweetBtn {
+        display: none !important;
+    }
+
+    #right-part{
+        display: none; !important;
+    }
+
+     i.me-4 {
+        margin-right: unset !important;
+    }
+
+     i.mt-2{
+         margin-top: unset!important;
+     }
+
+    #left-nav {
+        bottom: 0;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bg-dark);
+    }
+
+    .nav-text {
+        display: none !important;
+    }
+
+    .tendancesContent {
+        display: none !important;
+    }
+}

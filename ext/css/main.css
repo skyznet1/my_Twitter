@@ -1,0 +1,198 @@
+:root {
+    --little-bird: rgb(29, 155, 240);
+}
+
+.darkmode {
+    --bg-dark: rgb(0, 0, 0) !important;
+    --logo-twitter: white !important;
+    --text-white: white !important;
+    --accueil-color: rgb(217, 217, 217);
+    --nuanced-black: rgba(0, 0, 0, 0);
+    --nav-items-hover: rgba(217, 217, 217, 0.09) !important;
+    --tendances-box: rgb(21, 24, 28) !important;
+    --tendances-reason: rgb(217, 217, 217) !important;
+    --tendancex-content-hover: rgba(255, 255, 255, 0.03);
+    --text-area-color: var(--text-white);
+    --inout-search: rgb(32, 35, 39);
+    --input-search-inside: rgb(32, 35, 39);
+    --input-border: 1px solid rgb(1, 1, 1);
+    --border-main: rgb(47, 51, 54);
+    --arrow-goback-proflie: rgba(239, 243, 244, 0.1);
+    --border-edit-profile: rgb(83, 100, 113);
+    --subs-under-name: rgb(110, 118, 125);
+    --nav-profile-color: rgb(110, 118, 125);
+    --nav-profile-hover: rgba(217, 217, 217, 0.1);
+    --border-profile-pic: 4px solid black;
+    --msg-sender: rgb(47, 51, 54);
+    --light-black: #fff;
+}
+
+.lightmode {
+    --bg-dark: white !important;
+    --logo-twitter: var(--little-bird) !important;
+    --text-white: rgb(15, 20, 25) !important;
+    --accueil-color: black;
+    --nuanced-black: rgba(0, 0, 0, 0);
+    --nav-items-hover: rgba(0, 0, 0, 0.08) !important;
+    --tendances-box: rgb(247, 249, 249) !important;
+    --tendances-reason: rgb(15, 20, 25) !important;
+    --tendancex-content-hover: rgba(0, 0, 0, 0.03) !important;
+    --text-area-color: var(--text-white);
+    --inout-search: rgb(239, 243, 244);
+    --input-search-inside: rgb(239, 243, 244);
+    --input-border: 1px solid rgb(239, 243, 244);
+    --border-main: rgb(239, 243, 244);
+    --arrow-goback-proflie: rgba(239, 243, 244, 0.1);
+    --border-edit-profile: rgb(83, 100, 113);
+    --subs-under-name: rgb(110, 118, 125);
+    --nav-profile-color: rgb(110, 118, 125);
+    --nav-profile-hover: rgba(217, 217, 217, 0.1);
+    --border-profile-pic: 4px solid white;
+    --msg-sender: rgb(47, 51, 54);
+    --light-black: #000;
+}
+
+.bluemode {
+    --bg-dark: rgb(21, 32, 43);
+    --logo-twitter: white !important;
+    --text-white: white !important;
+    --accueil-color: rgb(217, 217, 217);
+    --nuanced-black: rgba(0, 0, 0, 0);
+    --nav-items-hover: rgba(217, 217, 217, 0.09) !important;
+    --tendances-box: rgb(21, 24, 28) !important;
+    --tendances-reason: rgb(217, 217, 217) !important;
+    --tendancex-content-hover: rgba(255, 255, 255, 0.03);
+    --text-area-color: var(--text-white);
+    --inout-search: rgb(32, 35, 39);
+    --input-search-inside: rgb(32, 35, 39);
+    --input-border: 1px solid rgb(1, 1, 1);
+    --border-main: rgb(47, 51, 54);
+    --arrow-goback-proflie: rgba(239, 243, 244, 0.1);
+    --border-edit-profile: rgb(83, 100, 113);
+    --subs-under-name: rgb(110, 118, 125);
+    --nav-profile-color: rgb(110, 118, 125);
+    --nav-profile-hover: rgba(217, 217, 217, 0.1);
+    --border-profile-pic: 4px solid black;
+    --msg-sender: rgb(47, 51, 54);
+    --light-black: #fff;
+}
+
+.twitterBlueBG {
+    background-color: var(--little-bird);
+}
+
+.twitterBluecolor {
+    color: var(--little-bird);
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.align-text-super {
+    vertical-align: super !important;
+}
+
+.align-text-sub {
+    vertical-align: sub !important;
+}
+
+.margn-unset {
+    margin: unset;
+}
+
+.marg-left-auto {
+    margin-left: auto !important;
+}
+
+.marg-right-auto {
+    margin-right: auto !important;
+}
+
+.marg-top-auto {
+    margin-top: auto !important;
+}
+
+.marg-auto {
+    margin: 0 auto;
+}
+
+.width-fit {
+    width: fit-content !important;
+}
+
+a {
+    color: var(--text-white);
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: unset !important;
+    color: var(--text-white);
+}
+
+
+.border-right {
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right-color: var(--border-main) !important;
+    border-right-width: 1px;
+
+}
+
+@media screen and (max-width: 998px) {
+    .twitterPartsLeft {
+        display: none !important;
+    }
+}
+
+.avatar {
+    object-fit: cover;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.activeTabs {
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--little-bird);
+    font-weight: 700;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.btn-unfollow {
+    background-color: transparent;
+    color: var(--text-white);
+    border: 1px solid var(--text-white);
+    border-radius: 25px;
+    transition: 0.2s;
+}
+
+.btn-unfollow:hover {
+    color: rgb(244, 33, 46);
+    border-color: rgb(253, 201, 206);
+    background-color: rgb(244, 33, 46, 0.1);
+}
+
+.fa-retweet {
+    display: flex;
+    
+}

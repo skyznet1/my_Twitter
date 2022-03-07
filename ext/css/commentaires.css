@@ -1,0 +1,17 @@
+#suggestion {
+    display: none !important;
+}
+
+
+.cardTweet:hover {
+    background-color: var(--bg-dark) !important;
+}
+
+.com-response-at {
+    color: gray;
+    margin-left: 5rem !important;
+}
+
+.border-bottom-none {
+    border-bottom-style: none !important;
+}

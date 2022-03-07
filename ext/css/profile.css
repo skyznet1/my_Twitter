@@ -1,0 +1,119 @@
+
+.imgPostedBox {
+    border-radius: 25px;
+    background-color: var(--tendances-box);
+}
+
+.img-top-left {
+    border-top-left-radius: 25px;
+}
+
+.img-bottom-left {
+    border-bottom-left-radius: 25px;
+}
+
+.img-top-right {
+    border-top-right-radius: 25px;
+}
+
+.img-bottom-right {
+    border-bottom-right-radius: 25px;
+}
+
+.userTweetPosted {
+    color: rgb(83, 100, 113);
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.arrowHover {
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.arrowHover:hover {
+    background-color: var(--arrow-goback-proflie);
+    cursor: pointer;
+}
+
+.profilePic {
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -10%;
+    margin-left: 5%;
+    border: var(--border-profile-pic);
+}
+
+
+.btn-editprofile {
+    height: fit-content !important;
+    width: auto;
+    color: var(--text-white);
+    border: 1px solid var(--border-edit-profile);
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+.btn-editprofile:hover {
+    color: var(--text-white);
+    background-color: var(--inout-search);
+}
+
+.nameProflie {
+    font-weight: 800;
+    font-size: 20px;
+    word-break: break-word;
+    line-height: 24px;
+    color: var(--text-white);
+}
+
+.nameUnder {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.joinedSince {
+    font-size: 15px;
+    line-height: 12px;
+    font-weight: 400;
+}
+
+.subCount {
+    font-weight: 700;
+}
+
+.subsRight {
+    color: var(--subs-under-name) !important;
+    font-weight: 400;
+}
+
+.nav-profile {
+    color: var(--nav-profile-color);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.nav-profile:hover {
+    background-color: var(--nav-profile-hover);
+}
+
+.avatar2 {
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 50%;
+    position: relative;
+    transform: translate(5%, -75%);
+    border: 4px solid var(--text-white);
+}
+
+.active-onglets {
+    border-bottom: 2px solid var(--little-bird);
+    color: var(--text-white);
+    font-weight: 700;
+}
+
