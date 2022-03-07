@@ -68,6 +68,6 @@
 ## Contact
 
 <ul>
-    <li><a href="https://github.com/ColleryCorentin">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/collerycorentin">Linkedin</a></li>
+    <li><a href="https://github.com/skyznet1">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/corentin-pomme-0a3609212/">Linkedin</a></li>
 </ul>
